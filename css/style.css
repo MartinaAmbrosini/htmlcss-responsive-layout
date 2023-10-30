@@ -64,7 +64,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 40px 20px; 
+    padding: 40px 20px;
 }
 
 .card {
@@ -73,7 +73,7 @@ li {
     flex-direction: column;
     background-color: #b5ddff;
     border-radius: 20px;
-    width: 100%;
+    margin-bottom: 20px;
 }
 
 .demo_text {
@@ -114,11 +114,28 @@ li {
 
 .card_img {
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .card_img img{
-    width: 100%;
+    width: 50%;
 }
+
+.icon_text_container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+
 
 /* versione tablet */
 
