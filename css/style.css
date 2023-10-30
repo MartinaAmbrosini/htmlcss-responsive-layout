@@ -141,6 +141,59 @@ li {
     margin-bottom: 20px;
 }
 
+.planning {
+    width: 100%;
+    background-color: #9792e4;
+}
+
+.planning_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.planning_img {
+    display: flex;
+    justify-content: center;
+}
+
+.planning_card .planning_img img {
+    width: 90%;
+    padding: 50px 20px;
+}
+
+.planning_text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.planning_title {
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.planning_paragrafo {
+    font-size: 14px;
+    color: white;
+}
+
+#planning2 {
+    width: 80%;
+    border-radius: 60px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.planning2_title {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
 
 
 /* versione tablet */
