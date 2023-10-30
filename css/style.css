@@ -110,6 +110,10 @@ li {
     padding: 8px 50px;
 }
 
+.app_store {
+    text-align: center;
+}
+
 .card_bottone .app_store span {
     margin-right: 7px;
 }
@@ -170,4 +174,27 @@ li {
         width: 70%;
     }
 
+    .card {
+        width: calc(90% / 3);
+    }
+
+    #demo {
+        flex-direction: row;
+    }
+    
+    .demo_container {
+        width: 100%;
+    }
+
+    .card_img {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .card_img img{
+        width: 100%;
+        height: 80%;
+    }
 }
