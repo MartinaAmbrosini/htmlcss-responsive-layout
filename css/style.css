@@ -56,10 +56,80 @@ li {
     padding: 5px 10px;
 }
 
+.info_box {
+    width: 100%;
+}
+
+.info_box_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px 20px; 
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #b5ddff;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.demo_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+.card_titolo {
+    margin-bottom: 20px;
+}
+
+.card_titolo p {
+    color: #0084fd; 
+    font-weight: bold;
+}
+
+.card_paragrafo {
+    font-size: 16px;
+}
+
+.card_bottone {
+    margin: 0 auto;
+}
+
+.card_bottone a {
+    font-size: 16px;
+    background-color: #0084fd;
+    border-radius: 20px;
+    padding: 8px 50px;
+}
+
+.card_bottone .app_store span {
+    margin-right: 7px;
+}
+
+.card_img {
+    padding-top: 20px;
+}
+
+.card_img img{
+    width: 100%;
+}
+
 /* versione tablet */
 
 @media all and (min-width: 768px) {
-    
+    .card {
+        width: calc(100% / 3);
+    }
+
+    #demo {
+        width: calc((100% / 3) * 2);
+    }
 }
 
 /* versione desktop */
