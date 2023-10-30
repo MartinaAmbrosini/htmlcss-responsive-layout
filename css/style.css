@@ -63,6 +63,7 @@ li {
 .info_box_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -74,6 +75,7 @@ li {
     background-color: #b5ddff;
     border-radius: 20px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .demo_text {
@@ -141,17 +143,21 @@ li {
 
 @media all and (min-width: 768px) {
     .card {
-        width: calc(100% / 3);
+        width: calc(90% / 3);
     }
 
     #demo {
-        width: calc((100% / 3) * 2);
+        width: calc((95% / 3) * 2);
+    }
+
+    .info_box_container {
+        justify-content: space-around;
     }
 }
 
 /* versione desktop */
 
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1200px) {
     .hamburger_menu {
         display: none;
     }
@@ -159,4 +165,9 @@ li {
     .nav_bar {
         display: block;
     }
+
+    .info_box_container {
+        width: 70%;
+    }
+
 }
