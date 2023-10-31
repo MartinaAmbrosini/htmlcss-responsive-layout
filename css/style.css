@@ -154,7 +154,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* height: 600px; */
+    /* height: 800px; */
 }
 
 .planning_img {
@@ -163,6 +163,7 @@ li {
     display: flex;
     justify-content: center;
     padding: 10px 10px;
+    margin: 25px 0;
 }
 
 .planning_img img {
@@ -183,18 +184,29 @@ li {
     margin-bottom: 40px;
 }
 
+#planning2 {
+    background-color: white; 
+    border-radius: 60px;
+}
+
 .app_developement {
     font-size: 24px;
     color: black;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .developement_text {
     font-size: 18px;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 20px 0;
+}
+
+.arrow i {
+    background-color: #9792e4;
+    padding: 30px 25px;
+    border-radius: 100%;
 }
 
 /* versione tablet */
@@ -211,6 +223,21 @@ li {
     .info_box_container {
         justify-content: space-around;
     }
+
+    .planning {
+        padding: 20px;
+    }
+
+    .planning_container{
+        width: 70%;
+    }
+
+    .planning_img {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+
 }
 
 /* versione desktop */
@@ -250,5 +277,22 @@ li {
     .card_img img{
         width: 100%;
         height: 80%;
+    }
+
+    .planning {
+        max-width: 1920px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .planning_container {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 40%;
+    }
+
+    #planning2 {
+        width:30%;
     }
 }
