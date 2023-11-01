@@ -305,6 +305,54 @@ li {
     padding: 10px;
 }
 
+.about {
+    /* background-color: cadetblue;
+    height: 900px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.about_card {
+    /* background-color: #bbb9df;
+    height: 400px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_img {
+    height: 120px;
+    /* background-color: aliceblue; */
+    border-radius: 100%;  
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:120px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.fa-quote-left {
+    position: absolute;
+    top:15px;
+    right: 0;
+}
+
+.about_bottone {
+    background-color: #9792e4;
+    border-radius: 20px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+
 /* versione tablet */
 
 @media all and (min-width: 768px) {
