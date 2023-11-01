@@ -409,6 +409,17 @@ li {
     .benefits_card {
         width: calc(90% / 2);
     }
+
+    .about {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .about_img {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+    }
 }
 
 /* versione desktop */
@@ -479,8 +490,9 @@ li {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        padding-left: 250px;
-        padding-right: 250px;
+        max-width: 1920px;
+        padding-left: 200px;
+        padding-right: 200px;
     }
 
     .benefits_title {
@@ -489,5 +501,11 @@ li {
     
     .benefits_card {
         width: calc(90% / 3);
+    }
+
+    .about {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1080px;
     }
 }
