@@ -378,6 +378,21 @@ li {
     margin-bottom: 40px;
 }
 
+footer {
+    background-color: #333333;
+    /* height: 800px; */
+    padding: 70px;
+}
+
+.footer_container {
+    /* background-color: #b5ddff;
+    height: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
 /* versione tablet */
 
 @media all and (min-width: 768px) {
@@ -447,6 +462,11 @@ li {
     }
 
     .get_started_container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .footer_container {
         max-width: 500px;
         margin: 0 auto;
     }
